@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		575D894726429DA20070913A /* photoEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575D894626429DA00070913A /* photoEdit.swift */; };
+		575D894B2642BAFB0070913A /* jf-openhuninn-1.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 575D894A2642BAF60070913A /* jf-openhuninn-1.1.ttf */; };
 		57FD23D8263E7A1500C479F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FD23D7263E7A1500C479F9 /* AppDelegate.swift */; };
 		57FD23DA263E7A1500C479F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FD23D9263E7A1500C479F9 /* SceneDelegate.swift */; };
 		57FD23DC263E7A1500C479F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FD23DB263E7A1500C479F9 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		575D894626429DA00070913A /* photoEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoEdit.swift; sourceTree = "<group>"; };
+		575D894A2642BAF60070913A /* jf-openhuninn-1.1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-openhuninn-1.1.ttf"; sourceTree = "<group>"; };
 		57FD23D4263E7A1500C479F9 /* photoEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FD23D7263E7A1500C479F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57FD23D9263E7A1500C479F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		57FD23CB263E7A1500C479F9 = {
 			isa = PBXGroup;
 			children = (
+				575D894A2642BAF60070913A /* jf-openhuninn-1.1.ttf */,
+				575D894626429DA00070913A /* photoEdit.swift */,
 				57FD23D6263E7A1500C479F9 /* photoEdit */,
 				57FD23D5263E7A1500C479F9 /* Products */,
 			);
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57FD23E4263E7A1B00C479F9 /* LaunchScreen.storyboard in Resources */,
+				575D894B2642BAFB0070913A /* jf-openhuninn-1.1.ttf in Resources */,
 				57FD23E1263E7A1B00C479F9 /* Assets.xcassets in Resources */,
 				57FD23DF263E7A1500C479F9 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			files = (
 				57FD23DC263E7A1500C479F9 /* ViewController.swift in Sources */,
 				57FD23D8263E7A1500C479F9 /* AppDelegate.swift in Sources */,
+				575D894726429DA20070913A /* photoEdit.swift in Sources */,
 				57FD23DA263E7A1500C479F9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
